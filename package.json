@@ -1,0 +1,15 @@
+{
+  "name": "copcu-baligi",
+  "version": "0.1.0",
+  "description": "Sistemdeki tüm kalıntıları temizlemeye yardımcı olur.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./core"
+  },
+  "author": "Şakir Mehmetoğlu (SuStartX)",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "electron": "^8.2.3",
+    "python-shell": "^1.0.8"
+  }
+}
