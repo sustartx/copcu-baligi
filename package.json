@@ -10,6 +10,7 @@
   "license": "GNU GPLv3",
   "dependencies": {
     "electron": "^8.2.3",
-    "python-shell": "^1.0.8"
+    "python-shell": "^1.0.8",
+    "sweetalert2": "^9.10.12"
   }
 }
