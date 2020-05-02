@@ -10,6 +10,7 @@
   "license": "GNU GPLv3",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "admin-lte": "^3.0.4",
     "electron": "^8.2.3",
     "python-shell": "^1.0.8",
     "sweetalert2": "^9.10.12"
