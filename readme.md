@@ -23,3 +23,6 @@ veya
     npm start
 
 komutlarını çalıştırabilirsiniz.
+
+## Diğer Kaynaklar
+Tema : https://github.com/azouaoui-med/pro-sidebar-template
