@@ -1,0 +1,20 @@
+{
+    "home": "Anasayfa",
+    "cut": "Kes",
+    "copy": "Kopyala",
+    "paste": "Yapıştır",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "undo": "Geri Al",
+    "redo": "Yinele",
+    "view": "Görüntüle",
+    "select_all": "Tümünü seç",
+    "help": "Yardım",
+    "about": "Hakkında",
+    "minimize": "Küçült",
+    "maximize": "Büyüt",
+    "hide": "Gizle",
+    "unhide": "Göster",
+    "close": "Kapat",
+    "quit": "Çıkış Yap"
+}

@@ -1,0 +1,20 @@
+{
+    "home": "Homepage",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "edit": "Edit",
+    "delete": "Delete",
+    "undo": "Undo",
+    "redo": "Redo",
+    "view": "View",
+    "select_all all": "Select all",
+    "help": "Help",
+    "about": "About",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "hide": "Hide",
+    "unhide": "Unhide",
+    "close": "Close",
+    "quit": "Quit"
+}
