@@ -16,11 +16,17 @@ Projeyi kendi bilgisayarınızda çalıştırmak veya test etmek için aşağıd
 
 Projeyi kopyaladıktan sonra çalıştırmak için;
 
-    yarn start
+```
+yarn install
+yarn serve
+```
     
 veya
     
-    npm start
+```
+npm install
+npm serve
+```
 
 komutlarını çalıştırabilirsiniz.
 
