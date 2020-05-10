@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
+  <div>
     <img alt="Vue logo" src="../assets/logo.png">
     <p><a href="#" @click="setLocale('tr_TR')"><flag iso="tr"></flag> Türkçe</a></p>
     <p><a href="#" @click="setLocale('en_US')"><flag iso="us"></flag> İngilizce</a></p>
 
-    <p>{{ $t('home') }}</p>
+    <p>{{ $t('index') }}</p>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Home',
+  name: 'Index',
   components: {
 
   },
