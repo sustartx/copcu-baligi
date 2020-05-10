@@ -18,14 +18,14 @@ Projeyi kopyaladıktan sonra çalıştırmak için;
 
 ```
 yarn install
-yarn serve
+yarn electron:serve
 ```
     
 veya
     
 ```
 npm install
-npm serve
+npm electron:serve
 ```
 
 komutlarını çalıştırabilirsiniz.
