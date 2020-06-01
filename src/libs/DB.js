@@ -25,9 +25,13 @@ function firstInstall () {
   })
 }
 
-function dbSelect (query, callback) {
+function dbSelect (query, fetchType, callback) {
   connect()
-  db.all(query, callback)
+  if (fetchType === 'row') {
+    db.get(query, callback)
+  } else {
+    db.all(query, callback)
+  }
   closeConnection()
 }
 
