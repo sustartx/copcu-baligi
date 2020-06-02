@@ -46,6 +46,11 @@ const routes = [
     component: () => import('../views/Resources.vue')
   },
   {
+    path: '/apt-repository-manager',
+    name: 'APTRepositoryManager',
+    component: () => import('../views/APTRepositoryManager')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

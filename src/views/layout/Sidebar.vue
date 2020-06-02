@@ -83,6 +83,11 @@ export default {
           link: '/resources'
         },
         {
+          title: 'APT Repository Manager',
+          class: 'fa fa-cogs',
+          link: '/apt-repository-manager'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
