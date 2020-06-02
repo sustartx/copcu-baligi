@@ -48,6 +48,11 @@ export default {
           link: '/'
         },
         {
+          title: 'Startup Applications',
+          class: 'fa fa-cogs',
+          link: '/startup-applications'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'

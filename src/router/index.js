@@ -11,6 +11,11 @@ const routes = [
     component: Index
   },
   {
+    path: '/startup-applications',
+    name: 'StartupApplications',
+    component: () => import('../views/StartupApplications.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting
