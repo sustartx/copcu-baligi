@@ -111,6 +111,11 @@ export default {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
+        },
+        {
+          title: 'Feedback',
+          class: 'fa fa-cogs',
+          link: '/feedback'
         }
       ]
     }
