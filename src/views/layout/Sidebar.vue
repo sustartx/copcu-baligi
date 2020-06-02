@@ -88,6 +88,11 @@ export default {
           link: '/apt-repository-manager'
         },
         {
+          title: 'Gnome Settings',
+          class: 'fa fa-cogs',
+          link: '/gnome-settings'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'

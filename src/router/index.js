@@ -51,6 +51,11 @@ const routes = [
     component: () => import('../views/APTRepositoryManager.vue')
   },
   {
+    path: '/gnome-settings',
+    name: 'GnomeSettings',
+    component: () => import('../views/GnomeSettings.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting
