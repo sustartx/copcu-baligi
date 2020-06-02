@@ -26,6 +26,11 @@ const routes = [
     component: () => import('../views/Services.vue')
   },
   {
+    path: '/processes',
+    name: 'Processes',
+    component: () => import('../views/Processes.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

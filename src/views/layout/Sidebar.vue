@@ -63,6 +63,11 @@ export default {
           link: '/services'
         },
         {
+          title: 'Processes',
+          class: 'fa fa-cogs',
+          link: '/processes'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
