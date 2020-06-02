@@ -21,6 +21,11 @@ const routes = [
     component: () => import('../views/SystemClean.vue')
   },
   {
+    path: '/services',
+    name: 'Services',
+    component: () => import('../views/Services.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

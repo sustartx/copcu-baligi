@@ -58,6 +58,11 @@ export default {
           link: '/system-clean'
         },
         {
+          title: 'Services',
+          class: 'fa fa-cogs',
+          link: '/services'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
