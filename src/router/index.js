@@ -48,7 +48,7 @@ const routes = [
   {
     path: '/apt-repository-manager',
     name: 'APTRepositoryManager',
-    component: () => import('../views/APTRepositoryManager')
+    component: () => import('../views/APTRepositoryManager.vue')
   },
   {
     path: '/settings',
