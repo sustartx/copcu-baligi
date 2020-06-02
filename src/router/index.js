@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Index from '../views/pages/Index.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Index',
-    component: Index
+    name: 'Dashboard',
+    component: () => import('../views/pages/Dashboard.vue')
   },
   {
     path: '/startup-applications',
