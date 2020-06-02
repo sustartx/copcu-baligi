@@ -66,6 +66,11 @@ const routes = [
     component: () => import('../views/CinnamonSettings.vue')
   },
   {
+    path: '/host-file-editor',
+    name: 'HostFileEditor',
+    component: () => import('../views/HostFileEditor.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

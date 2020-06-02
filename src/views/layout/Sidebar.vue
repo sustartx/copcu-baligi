@@ -103,6 +103,11 @@ export default {
           link: '/cinnamon-settings'
         },
         {
+          title: 'Host File Editor',
+          class: 'fa fa-cogs',
+          link: '/host-file-editor'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
