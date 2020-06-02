@@ -1,3 +1,11 @@
 <template>
-  <div>Cinamon Settings</div>
+  <div>
+    Cinnamon Settings
+  </div>
 </template>
+
+<script>
+  export default {
+    name: 'CinnamonSettings'
+  }
+</script>
