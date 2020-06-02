@@ -53,6 +53,11 @@ export default {
           link: '/startup-applications'
         },
         {
+          title: 'System Clean',
+          class: 'fa fa-cogs',
+          link: '/system-clean'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'

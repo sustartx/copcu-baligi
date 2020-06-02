@@ -16,6 +16,11 @@ const routes = [
     component: () => import('../views/StartupApplications.vue')
   },
   {
+    path: '/system-clean',
+    name: 'SystemClean',
+    component: () => import('../views/SystemClean.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting
