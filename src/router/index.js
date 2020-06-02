@@ -82,6 +82,11 @@ const routes = [
     path: '/feedback',
     name: 'Feedback',
     component: () => import('../views/Feedback.vue')
+  },
+  {
+    path: '/donate',
+    name: 'Donate',
+    component: () => import('../views/Donate.vue')
   }
 ]
 

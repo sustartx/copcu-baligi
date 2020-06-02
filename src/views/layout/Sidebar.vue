@@ -116,6 +116,11 @@ export default {
           title: 'Feedback',
           class: 'fa fa-cogs',
           link: '/feedback'
+        },
+        {
+          title: 'Donate',
+          class: 'fa fa-cogs',
+          link: '/donate'
         }
       ]
     }
