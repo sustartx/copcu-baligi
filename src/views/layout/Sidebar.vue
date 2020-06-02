@@ -68,6 +68,11 @@ export default {
           link: '/processes'
         },
         {
+          title: 'Uninstaller',
+          class: 'fa fa-cogs',
+          link: '/uninstaller'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'

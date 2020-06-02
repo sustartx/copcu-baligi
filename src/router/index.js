@@ -31,6 +31,11 @@ const routes = [
     component: () => import('../views/Processes.vue')
   },
   {
+    path: '/uninstaller',
+    name: 'Uninstaller',
+    component: () => import('../views/Uninstaller.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting
