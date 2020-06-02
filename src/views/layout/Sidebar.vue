@@ -10,10 +10,11 @@
       <div class="sidebar-search">
         <div>
           <div class="input-group">
-            <input type="text" class="form-control search-menu" placeholder="Ara...">
+            <input type="text" class="form-control search-menu" placeholder="Ara..." v-model="criteria">
             <div class="input-group-append">
                 <span class="input-group-text">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <i class="fa fa-search" aria-hidden="true" v-if="criteria.length === 0"></i>
+                  <i class="fa fa-times" aria-hidden="true" v-else v-on:click.prevent="criteria = ''"></i>
                 </span>
             </div>
           </div>
@@ -24,7 +25,7 @@
           <li class="header-menu">
             <span>General</span>
           </li>
-          <li v-for="(item, key) in menu">
+          <li v-for="(item, key) in menuItems">
             <router-link :to="item.link" :key="key">
               <i :class="item.class"></i>
               {{ item.title }}
@@ -41,6 +42,7 @@ export default {
   name: 'Sidebar',
   data () {
     return {
+      criteria: '',
       menu: [
         {
           title: 'Dashboard',
@@ -123,6 +125,20 @@ export default {
           link: '/donate'
         }
       ]
+    }
+  },
+  computed: {
+    menuItems: function () {
+      if (this.criteria.trim().length > 0) {
+        const regex = new RegExp(this.criteria, 'gi')
+        return this.menu.filter(function (item) {
+          if (item.title.match(regex) !== null) {
+            return true
+          }
+        })
+      } else {
+        return this.menu
+      }
     }
   }
 }
