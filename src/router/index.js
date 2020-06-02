@@ -61,6 +61,11 @@ const routes = [
     component: () => import('../views/KDESettings.vue')
   },
   {
+    path: '/cinnamon-settings',
+    name: 'CinnamonSettings',
+    component: () => import('../views/CinnamonSettings.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

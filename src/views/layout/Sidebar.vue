@@ -98,6 +98,11 @@ export default {
           link: '/kde-settings'
         },
         {
+          title: 'Cinnamon Settings',
+          class: 'fa fa-cogs',
+          link: '/cinnamon-settings'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
