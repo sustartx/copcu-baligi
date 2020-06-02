@@ -36,6 +36,11 @@ const routes = [
     component: () => import('../views/Uninstaller.vue')
   },
   {
+    path: '/disk-utilities',
+    name: 'DiskUtilities',
+    component: () => import('../views/DiskUtilities.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

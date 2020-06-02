@@ -73,6 +73,11 @@ export default {
           link: '/uninstaller'
         },
         {
+          title: 'Disk Utilities',
+          class: 'fa fa-cogs',
+          link: '/disk-utilities'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
