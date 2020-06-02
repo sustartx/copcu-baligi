@@ -41,6 +41,11 @@ const routes = [
     component: () => import('../views/DiskUtilities.vue')
   },
   {
+    path: '/resources',
+    name: 'Resources',
+    component: () => import('../views/Resources.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting

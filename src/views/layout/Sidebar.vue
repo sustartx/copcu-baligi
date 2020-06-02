@@ -78,6 +78,11 @@ export default {
           link: '/disk-utilities'
         },
         {
+          title: 'Resources',
+          class: 'fa fa-cogs',
+          link: '/resources'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'
