@@ -93,6 +93,11 @@ export default {
           link: '/gnome-settings'
         },
         {
+          title: 'KDE Settings',
+          class: 'fa fa-cogs',
+          link: '/kde-settings'
+        },
+        {
           title: 'Settings',
           class: 'fa fa-cogs',
           link: '/settings'

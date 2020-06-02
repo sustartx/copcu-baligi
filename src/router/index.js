@@ -56,6 +56,11 @@ const routes = [
     component: () => import('../views/GnomeSettings.vue')
   },
   {
+    path: '/kde-settings',
+    name: 'KDESettings',
+    component: () => import('../views/KDESettings.vue')
+  },
+  {
     path: '/settings',
     name: 'Settings',
     // route level code-splitting
