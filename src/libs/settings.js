@@ -1,4 +1,4 @@
-import { dbSelect } from './libs/DB'
+import { dbSelect } from './DB'
 
 async function getSettings () {
   var settings = {}
