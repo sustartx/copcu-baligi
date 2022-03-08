@@ -34,5 +34,5 @@ komutlarını çalıştırabilirsiniz.
 Tema : https://github.com/azouaoui-med/pro-sidebar-template
 
 ## Yapılacaklar
-[ ] Uygulama simgesi oluşturulacak.
-[ ] Tüm işletim sistemlerinde masaüstüne kısayıl eklemek için geliştirme yapılacak.
+- [ ] Uygulama simgesi oluşturulacak.
+- [ ] Tüm işletim sistemlerinde masaüstüne kısayıl eklemek için geliştirme yapılacak.
