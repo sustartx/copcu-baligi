@@ -78,7 +78,7 @@ body {
 @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
         padding-right: 20px;
-        padding-left: 280px;
+        padding-left: 300px;
     }
 }
 /*----------------show sidebar button----------------*/
@@ -95,7 +95,7 @@ body {
 }
 /*----------------sidebar-wrapper----------------*/
 .sidebar-wrapper {
-    width: 260px;
+    width: 300px;
     height: 100%;
     max-height: 100%;
     position: fixed;
