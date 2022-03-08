@@ -1,7 +1,4 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
+import {createRouter, createWebHistory} from "vue-router";
 
 const routes = [
   {
@@ -86,11 +83,9 @@ const routes = [
   }
 ]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  linkExactActiveClass: 'active',
-  routes
+export default createRouter({
+    history: createWebHistory(),
+  // linkExactActiveClass: 'active',
+  routes: routes
 })
 
-export default router
