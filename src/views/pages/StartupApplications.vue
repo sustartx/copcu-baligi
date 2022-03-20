@@ -1,16 +1,17 @@
 <template>
-  <div>
-    Startup Applications
-    <pre>
+    <div>
+        Startup Applications
+        <pre>
       - Add
       - Remove
       - Enable / Disable
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'StartupApplications'
-  }
+export default {
+    name: "StartupApplications",
+};
 </script>

@@ -1,0 +1,41 @@
+#app, html, body {
+    height: 100%;
+    margin: 0;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-sidebar {
+    flex: 0 0 auto;
+    min-height: 100%;
+}
+
+#right-content {
+    flex: 1 1;
+    min-height: 100%;
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
+}
+
+.scrollarea {
+    overflow-y: auto;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.nav-item-divider-vl {
+    display: block;
+    border-left: 1px solid #ddd;
+    height: 100%;
+}
+
+@import "btn-toggle.scss";
+

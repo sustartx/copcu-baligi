@@ -1,17 +1,18 @@
 <template>
-  <div>
-    APT Repository Manager
-    <pre>
+    <div>
+        APT Repository Manager
+        <pre>
       - List
       - Add
       - Edit
       - Remove
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'APTRepositoryManager'
-  }
+export default {
+    name: "APTRepositoryManager",
+};
 </script>

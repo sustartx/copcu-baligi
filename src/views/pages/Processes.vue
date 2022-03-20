@@ -1,15 +1,16 @@
 <template>
-  <div>
-    Processes
-    <pre>
+    <div>
+        Processes
+        <pre>
       - List
       - Kill
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'Processes'
-  }
+export default {
+    name: "Processes",
+};
 </script>

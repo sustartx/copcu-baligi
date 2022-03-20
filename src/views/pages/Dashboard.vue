@@ -1,7 +1,7 @@
 <template>
-  <div>
-    Dashboard
-    <pre>
+    <div>
+        Dashboard
+        <pre>
       - CPU Usage
       - Memory Usage
       - Disk Usage
@@ -17,12 +17,13 @@
       -- Model
       -- Core
       -- Speed
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Dashboard'
-}
+    name: "Dashboard",
+};
 </script>

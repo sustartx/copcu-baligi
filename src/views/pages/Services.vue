@@ -1,16 +1,17 @@
 <template>
-  <div>
-    Services
-    <pre>
+    <div>
+        Services
+        <pre>
       - Filter For Status
       - Startup Status
       - Current Status
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'Services'
-  }
+export default {
+    name: "Services",
+};
 </script>

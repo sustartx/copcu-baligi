@@ -1,6 +1,6 @@
-`Çöpçü Balığı` projesinin amacı başta `Pardus` olmak üzere yaygın kullanılan Linux dağıtımları, macOS ve Windows işletim sistemlerinde biriken işletim sistemi kalıntıları, kullandığımız programların kalıntıları ve diğer gereksiz kalıntıların temizlemektir.
+`Çöpçü Balığı` projesinin amacı başta `Pardus` olmak üzere yaygın kullanılan Linux dağıtımları, macOS ve Windows işletim sistemlerinde biriken işletim sistemi kalıntıları, kullandığımız programların kalıntıları ve diğer gereksiz kalıntıları temizlemektir.
 
-Proje `Electron.js` ve `Python` birleşiminden oluşmaktadır. Arayüz tamamen `HTML` ve `CSS` ile oluşturulmuştur.
+Proje `Electron.js`, `Vue.js` ve `Go` birleşiminden oluşmaktadır. Arayüz tamamen `HTML` ve `CSS` ile oluşturulmuştur.
 
     Not: Doküman güncellenecektir. 
 
@@ -30,9 +30,11 @@ npm electron:serve
 
 komutlarını çalıştırabilirsiniz.
 
-## Diğer Kaynaklar
-Tema : https://github.com/azouaoui-med/pro-sidebar-template
-
 ## Yapılacaklar
 - [ ] Uygulama simgesi oluşturulacak.
-- [ ] Tüm işletim sistemlerinde masaüstüne kısayıl eklemek için geliştirme yapılacak.
+- [ ] Tüm işletim sistemlerinde masaüstüne kısayol eklemek için geliştirme yapılacak.
+- [ ] Go dosyalarını derleyen node komutu yazılacak.
+- [x] Yenileme sonrası oluşan rota sorunu giderilecek.
+- [ ] Menü filtre sorunu giderilecek.
+- [ ] Menü butonunun durumu kaydedilecek.
+- [ ] Auth sayfalarındaki hata giderilecek.

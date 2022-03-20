@@ -1,17 +1,18 @@
 <template>
-  <div>
-    Resources
-    <pre>
+    <div>
+        Resources
+        <pre>
       - CPU Usage History
       - Disk Read Write History
       - Memory History
       - Network History
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'Resources'
-  }
+export default {
+    name: "Resources",
+};
 </script>

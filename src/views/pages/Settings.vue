@@ -1,7 +1,7 @@
 <template>
-  <div>
-    Settings
-    <pre>
+    <div>
+        Settings
+        <pre>
       - Language
       - Theme
       - Start Page
@@ -10,12 +10,13 @@
       -- CPU Percent
       -- Memory Percent
       -- Disk Percent
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'Settings'
-  }
+export default {
+    name: "Settings",
+};
 </script>

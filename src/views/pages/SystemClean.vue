@@ -1,7 +1,7 @@
 <template>
-  <div>
-    System Clean
-    <pre>
+    <div>
+        System Clean
+        <pre>
       - Package Caches
       - Crash Reports
       - Application Logs
@@ -25,12 +25,13 @@
       - Memory Dump
       - Prefetch
       - Registry Cleaner
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'SystemClean'
-  }
+export default {
+    name: "SystemClean",
+};
 </script>

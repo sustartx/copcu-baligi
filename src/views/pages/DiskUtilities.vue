@@ -1,16 +1,17 @@
 <template>
-  <div>
-    Disk Utilities
-    <pre>
+    <div>
+        Disk Utilities
+        <pre>
       - Erase Free Space
       - Duplicate Files
       - Large Files
-    </pre>
-  </div>
+    </pre
+        >
+    </div>
 </template>
 
 <script>
-  export default {
-    name: 'DiskUtilities'
-  }
+export default {
+    name: "DiskUtilities",
+};
 </script>

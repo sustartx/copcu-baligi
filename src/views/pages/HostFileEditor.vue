@@ -1,11 +1,9 @@
 <template>
-  <div>
-    Host File Editor
-  </div>
+    <div>Host File Editor</div>
 </template>
 
 <script>
-  export default {
-    name: 'HostFileEditor'
-  }
+export default {
+    name: "HostFileEditor",
+};
 </script>
